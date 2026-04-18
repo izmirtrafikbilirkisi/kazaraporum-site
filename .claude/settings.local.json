@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start *)",
+      "Bash(where node *)",
+      "Bash(where npx *)",
+      "Bash(where php *)",
+      "Read(//c/Program Files/**)"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260">
+  <rect width="260" height="260" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="130" cy="100" r="52" fill="rgba(201,162,39,0.3)"/>
+  <ellipse cx="130" cy="220" rx="76" ry="56" fill="rgba(201,162,39,0.2)"/>
+  <text x="130" y="108" font-family="Georgia,serif" font-size="48" font-weight="700" fill="rgba(201,162,39,0.6)" text-anchor="middle">MG</text>
+  <text x="130" y="172" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.35)" text-anchor="middle">Fotoğraf yakında eklenecek</text>
+</svg>
