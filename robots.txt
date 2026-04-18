@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kazaraporum.github.io/sitemap.xml
+Sitemap: https://izmirtrafikbilirkisi.github.io/kazaraporum-site/sitemap.xml

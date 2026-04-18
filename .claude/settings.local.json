@@ -5,7 +5,8 @@
       "Bash(where node *)",
       "Bash(where npx *)",
       "Bash(where php *)",
-      "Read(//c/Program Files/**)"
+      "Read(//c/Program Files/**)",
+      "Bash(gh api *)"
     ]
   }
 }
