@@ -651,6 +651,11 @@
       (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(e.key.toLowerCase()))
     ) e.preventDefault();
   });
+  document.querySelectorAll('img').forEach(img => {
+    img.setAttribute('draggable', 'false');
+    img.addEventListener('contextmenu', e => e.preventDefault());
+    img.addEventListener('mousedown', e => e.preventDefault());
+  });
 </script>
 </body>
 </html>
