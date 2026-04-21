@@ -1,5 +1,6 @@
 /* ═══════════ Reset & Variables ═══════════ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 :root {
   --navy: #0f2547;
   --navy-light: #1a3a6b;
