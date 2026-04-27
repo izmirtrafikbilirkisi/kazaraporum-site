@@ -1,4 +1,4 @@
-# Adli Trafik Bilirkişisi Mehmet Ali Gökçe — Tanıtım Sitesi
+# Adli Trafik Bilirkişisi Kazaraporum — Tanıtım Sitesi
 
 Saf HTML + CSS + Vanilla JS ile yapılmış statik site. GitHub Pages üzerinde sunucusuz çalışır.
 
