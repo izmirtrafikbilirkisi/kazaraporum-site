@@ -33,6 +33,9 @@
 
   <link rel="stylesheet" href="styles.css">
 
+  <!-- LCP optimization: preload hero image -->
+  <link rel="preload" as="image" href="assets/kaza-raporum.png" fetchpriority="high">
+
   <!-- Structured Data -->
   <script type="application/ld+json">
   [
@@ -49,12 +52,17 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
+      "@type": ["ProfessionalService", "LocalBusiness"],
       "name": "Adli Trafik Bilirkişisi Kazaraporum",
       "url": "https://izmirtrafikbilirkisi.github.io/kazaraporum-site/",
+      "image": "https://izmirtrafikbilirkisi.github.io/kazaraporum-site/assets/og-image.svg",
+      "logo": "https://izmirtrafikbilirkisi.github.io/kazaraporum-site/assets/favicon.svg",
       "telephone": "+905456224203",
       "email": "kazaraporum@gmail.com",
-      "areaServed": "TR",
+      "address": {"@type": "PostalAddress", "addressLocality": "İzmir", "addressCountry": "TR"},
+      "areaServed": {"@type": "Country", "name": "Türkiye"},
+      "priceRange": "₺₺",
+      "sameAs": [],
       "serviceType": ["Trafik Kazası Kusur Raporu", "Uzman Mütalaası", "Sigorta Tahkim Komisyonu Danışmanlığı", "Bireysel Danışmanlık", "Kusur Oranı İtiraz İncelemesi"]
     },
     {
@@ -164,7 +172,7 @@
         </div>
       </div>
       <div class="hero-image" aria-hidden="true">
-        <img src="assets/kaza-raporum.png" alt="Kaza Raporum — Trafik Bilirkişisi" width="260" height="260" style="width:100%;height:100%;object-fit:contain;background:transparent">
+        <img src="assets/kaza-raporum.png" alt="Kaza Raporum — Trafik Bilirkişisi" width="260" height="260" fetchpriority="high" decoding="async" style="width:100%;height:100%;object-fit:contain;background:transparent">
       </div>
     </div>
   </div>
