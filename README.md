@@ -20,7 +20,7 @@ Saf HTML + CSS + Vanilla JS ile yapılmış statik site. GitHub Pages üzerinde 
 
 1. `CNAME` dosyasını repo kök dizinine oluşturun, içine domain adınızı yazın:
    ```
-   kazaraporum.com
+   www.kazaraporum.com
    ```
 2. Domain DNS ayarlarınızda A kaydını GitHub Pages IP'lerine yönlendirin:
    ```
